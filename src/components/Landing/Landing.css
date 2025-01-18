@@ -1,0 +1,53 @@
+.sectionHero{
+    background-image: url("../../assets/bg_hero.png");
+    background-size: cover;
+    /* background-position: center; */
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.sectionHero nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.sectionHero nav .navLogo {
+    position: absolute;
+    left : 50%;
+    transform: translateX(-50%);
+
+}
+
+.sectionHero .heroBody {
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.sectionHero .heroBody div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    width: 100%;
+    flex-grow: 1;
+    padding-top: 2rem;
+}
+
+/* .sectionHero .heroBody div button{
+    font-size: var(--font-sz-sub-title);
+} */
+
+.sectionHero .heroBody img {
+    height: auto;
+    max-width: 1400px;
+    width: 100%;
+}
