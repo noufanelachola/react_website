@@ -4,9 +4,9 @@
     /* background-position: center; */
     background-position: top;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
-    overflow    : hidden;
+    overflow : hidden;
     z-index: 10;
 }
 
