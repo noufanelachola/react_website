@@ -1,5 +1,6 @@
 :root {
   --clr-primary-purple : #8100FF;
+  --clr-secondary-purple : rgba(200,144,255);
   --clr-gray : #49464C;
   --clr-light-gray : #A09FA3;
 
@@ -52,6 +53,7 @@
 }
 
 .btnPrimary {
+  background: linear-gradient(to bottom right, var(--clr-primary-purple), var(--clr-secondary-purple));
   background-color: var(--clr-primary-purple);
 }
 
