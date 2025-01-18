@@ -1,0 +1,92 @@
+:root {
+  --clr-primary-purple : #8100FF;
+  --clr-gray : #49464C;
+  --clr-light-gray : #A09FA3;
+
+  --font-sz-title : 59px;
+  --font-sz-sub-title : 36px;
+  --font-sz-para : 28px;
+  --font-sz-sub-para : 24px;
+}
+
+/* Texts */
+.textTitle {
+  font-size: var(--font-sz-title);
+}
+
+.textSubTitle {
+  font-size: var(--font-sz-sub-title);
+}
+
+.textPara {
+  font-size: var(--font-sz-para);
+}
+
+.textSubPara {
+  font-size: var(--font-sz-sub-para);
+}
+
+/* Weights */
+.wgtReg {
+  font-weight: 400;
+}
+
+.wgtMd {
+  font-weight: 500;
+}
+
+.wgtSemiBold {
+  font-weight: 600;
+}
+/* Buttons */
+.btn {
+  cursor : pointer;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  font-family: "Lexend";
+  border: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btnPrimary {
+  background-color: var(--clr-primary-purple);
+}
+
+/* Colors */
+.clrWhite {
+  color: white;
+}
+
+.clrGray {
+  color : var(--clr-gray);
+}
+
+.clrLightGray {
+  color: var(--clr-light-gray);
+}
+
+
+
+
+.tagDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: #FEFEFF;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+.tagDiv img {
+  height: 1.75rem;
+}
+
+
+.content{
+  max-width: 1728px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+}
