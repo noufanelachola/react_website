@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     min-height: 100vh;
     position: relative;
-    overflow : hidden;
+    overflow-x : hidden;
     z-index: 10;
 }
 
@@ -45,9 +45,10 @@
 }
 
 .sectionHero .heroBody img {
-    height: auto;
+    margin-top: auto;
+    height: 100%;
+    width: auto;
     max-width: 1400px;
-    width: 100%;
 }
 
 .sectionHero .arcDiv {

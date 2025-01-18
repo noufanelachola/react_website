@@ -19,7 +19,7 @@ const Hero = () => {
                 <div>
                     <h1 className='textTitle wgtReg' >Create, Sign, and Share<br/>Documents Seamlessly</h1>
                     <p className='textSubPara clrGray' style={{lineHeight:0,marginBottom:"1rem"}} >Smarter paperwork for freelancers!</p>
-                    <button className='btn btnPrimary clrWhite textSubTitle' style={{marginTop:"auto"}} >Get Started for Free</button>
+                    <button className='btn btnPrimary clrWhite textSubTitle' >Get Started for Free</button>
                     <p className='textSubPara clrLightGray' style={{cursor:"pointer"}} ><u>Watch a Demo</u></p>
                 </div>
                 <img src={DashBoard} alt='Dashboard' />
