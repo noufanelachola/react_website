@@ -71,24 +71,47 @@
 }
 
 
-
-
 .tagDiv {
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 0.35rem;
-  background-color: #FEFEFF;
-  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  padding: 0rem 1rem;
   border-radius: 2rem;
+  flex-grow: 0;
+  height: 3rem;
 }
 .tagDiv img {
-  height: 1.75rem;
+  height: 1.75rem;  
+  width: 1.75rem;
 }
 
+/* Hides */
+.hideDesk {
+  display: none;
+}
 
 .content{
-  max-width: 1728px;
+  max-width: 1300px;
   height: 100%;
   padding: 1rem 1rem 0rem 1rem;
   margin: 0 auto;
 }
+
+
+@media (max-width: 767px) {
+  
+  :root {
+    --font-sz-title : 28px;
+    --font-sz-sub-title : 18px;
+    --font-sz-para : 15px;
+    --font-sz-sub-para : 12px;
+  }
+  
+  .hideDesk {
+    display: flex;
+  }
+
+}
+  
