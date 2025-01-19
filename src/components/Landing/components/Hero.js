@@ -2,6 +2,7 @@ import React from 'react';
 import NavImage from "../../../assets/nav_emoji.png";
 import NavLogo from "../../../assets/nav_logo.png";
 import DashBoard from "../../../assets/dashboard.png";
+import Arc from "../../../assets/arc.png";
 
 const Hero = () => {
   return (
@@ -18,14 +19,14 @@ const Hero = () => {
             <div className='heroBody'>
                 <div>
                     <h1 className='textTitle wgtReg' >Create, Sign, and Share<br/>Documents Seamlessly</h1>
-                    <p className='textSubPara clrGray' style={{lineHeight:0,marginBottom:"1rem"}} >Smarter paperwork for freelancers!</p>
+                    <p className='textSubPara clrGray'  >Smarter paperwork for freelancers!</p>
                     <button className='btn btnPrimary clrWhite textSubTitle' >Get Started for Free</button>
                     <p className='textSubPara clrLightGray' style={{cursor:"pointer"}} ><u>Watch a Demo</u></p>
                 </div>
                 <img src={DashBoard} alt='Dashboard' />
             </div>
         </div>
-        <div className='arcDiv'></div>
+        {/* <img src={Arc} alt='Arc' /> */}
     </section>
   )
 }
