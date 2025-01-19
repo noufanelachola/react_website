@@ -89,6 +89,6 @@
 .content{
   max-width: 1728px;
   height: 100%;
+  padding: 1rem 1rem 0rem 1rem;
   margin: 0 auto;
-  padding: 1rem;
 }
