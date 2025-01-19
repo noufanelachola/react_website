@@ -25,6 +25,10 @@
     transform: translateX(-50%);
 }
 
+.sectionHero nav button {
+    margin-left: auto;
+}
+
 .sectionHero .heroBody {
     display: flex;
     flex-direction: column;
@@ -40,9 +44,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1rem;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .sectionHero .heroBody .dashboardImg {
@@ -54,3 +58,10 @@
 
 
   
+
+@media (max-width: 767px) {
+    .sectionHero .heroBody > div {
+        gap: 0.25rem;
+        padding-top: 5rem;
+    }
+}
