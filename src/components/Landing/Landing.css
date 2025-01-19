@@ -13,15 +13,16 @@
 .sectionHero nav {
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     width: 100%;
     position: relative;
 }
 
 .sectionHero nav .navLogo {
+    height: 100%;
     position: absolute;
     left : 50%;
     transform: translateX(-50%);
-
 }
 
 .sectionHero .heroBody {
@@ -34,7 +35,7 @@
 
     }
 
-.sectionHero .heroBody div {
+.sectionHero .heroBody > div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,10 +45,12 @@
     padding-top: 2rem;
 }
 
-.sectionHero .heroBody img {
+.sectionHero .heroBody .dashboardImg {
     margin-top: auto;
     height: auto;
     width: 100%;
     max-width: 1400px;
 }
 
+
+  
