@@ -81,11 +81,12 @@
   padding: 0.5rem 1rem;
   border-radius: 2rem;
   flex-grow: 0;
+  border: 0.1rem solid var(--clr-light-gray);
   /* height: 3rem; */
 }
 .tagDiv img {
-  height: 1.75rem;  
-  width: 1.75rem;
+  height: 1.5rem;  
+  width: 1.5rem;
 }
 
 /* Hides */

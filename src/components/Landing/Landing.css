@@ -7,13 +7,13 @@
     height: 100vh;
     /* position: relative; */
     overflow : hidden;
+    padding-top: 1.5rem;
 }
 
 
 .sectionHero nav {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     width: 100%;
     position: relative;
 }
@@ -36,8 +36,7 @@
     align-items: center;
     justify-content: space-between;
     height: 100%;
-
-    }
+}
 
 .sectionHero .heroBody > div {
     display: flex;
@@ -46,7 +45,7 @@
     justify-content: space-between;
     gap: 1rem;
     width: 100%;
-    padding-top: 3rem;
+    padding-top: 6rem;
 }
 
 .sectionHero .heroBody .dashboardImg {
@@ -65,3 +64,4 @@
         padding-top: 5rem;
     }
 }
+

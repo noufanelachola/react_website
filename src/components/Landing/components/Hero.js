@@ -17,7 +17,7 @@ const Hero = () => {
                 </div>
                 <img src={NavLogo} alt="Nav Logo" className='navLogo' style={{cursor:"pointer"}} />
                 <button className='btn hideDesk' style={{backgroundColor:"transparent"}} ><img src={NavIcon} alt="Nav Icon" style={{cursor:"pointer"}} /></button>
-                <button className='btn btnPrimary clrWhite wgtSemiBold hideMob' >Get Started for Free</button>
+                <button className='btn btnPrimary clrWhite wgtReg hideMob' >Get Started for Free</button>
             </nav>
             <div className='heroBody'>
                 <div>
@@ -26,8 +26,8 @@ const Hero = () => {
                         <p className='textSubPara' >For Freelancers, by Freelancers!</p>
                     </div>
                     <h1 className='textTitle wgtReg' >Create, Sign, and Share<br/>Documents Seamlessly</h1>
-                    <p className='textSubPara clrGray'  >Smarter paperwork for freelancers!</p>
-                    <button className='btn btnPrimary clrWhite textSubTitle' >Get Started for Free</button>
+                    <p className='textSubPara clrGray' style={{marginBottom:"0.8rem"}} >Smarter paperwork for freelancers!</p>
+                    <button className='btn btnPrimary clrWhite textSubPara' >Get Started for Free</button>
                     <p className='textSubPara clrLightGray' style={{cursor:"pointer"}} ><u>Watch a Demo</u></p>
                 </div>
                 <img src={DashBoard} alt='Dashboard' className='dashboardImg hideMob' />
