@@ -81,9 +81,13 @@
   
 
 @media (max-width: 767px) {
+    .sectionHero {
+        padding-top: 0.75rem ;
+    }
     .sectionHero .heroBody > div {
         gap: 0.25rem;
         padding-top: 5rem;
+        /* margin-top: auto; */
     }
 }
 
