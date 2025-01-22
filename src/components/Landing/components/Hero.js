@@ -1,9 +1,9 @@
 import React from 'react';
 import NavImage from "../../../assets/nav_emoji.png";
 import NavIcon from "../../../assets/nav_icon.png";
-import NavLogo from "../../../assets/nav_logo.png";
+import NavLogo from "../../../assets/nav_logo.svg";
 import DashBoard from "../../../assets/dashboard.png";
-import DashBoardMobile from "../../../assets/dashboard_mobilesvg.svg";
+import DashBoardMobile from "../../../assets/dashboard_mobile_big.svg";
 // import Arc from "../../../assets/arc.png";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
                     <p>For Freelancers, by Freelancers!</p>
                 </div>
                 <img src={NavLogo} alt="Nav Logo" className='navLogo' style={{cursor:"pointer"}} />
-                <button className='btn hideDesk' style={{backgroundColor:"transparent"}} ><img src={NavIcon} alt="Nav Icon" style={{cursor:"pointer"}} /></button>
+                <button className='btn hideDesk' style={{backgroundColor:"transparent",padding:"0.25rem 0"}} ><img src={NavIcon} alt="Nav Icon" style={{cursor:"pointer"}} /></button>
                 <button className='btn btnPrimary clrWhite wgtReg hideMob' >Get Started for Free</button>
             </nav>
             <div className='heroBody'>
@@ -25,7 +25,7 @@ const Hero = () => {
                         <img className='logo' src={NavImage} alt='Nav Emoji' />
                         <p className='textSubPara' >For Freelancers, by Freelancers!</p>
                     </div>
-                    <h1 className='textTitle wgtReg' >Create, Sign, and Share<br/>Documents Seamlessly</h1>
+                    <h1 className='textTitle wgtReg'  style={{textAlign:"center"}} >Create, Sign, and Share<br/>Documents Seamlessly</h1>
                     <p className='textSubPara clrGray' style={{marginBottom:"0.8rem"}} >Smarter paperwork for freelancers!</p>
                     <button className='btn btnPrimary clrWhite textSubPara' >Get Started for Free</button>
                     <p className='textSubPara clrLightGray' style={{cursor:"pointer"}} ><u>Watch a Demo</u></p>
