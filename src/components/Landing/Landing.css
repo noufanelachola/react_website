@@ -4,7 +4,7 @@
     /* background-position: center; */
     background-position: top;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100dvh;
     /* position: relative; */
     overflow : hidden;
     padding-top: 1.5rem;
@@ -45,14 +45,13 @@
     justify-content: space-between;
     gap: 1rem;
     width: 100%;
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 
 .sectionHero .heroBody .dashboardImg {
-    margin-top: auto;
     height: auto;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     animation: slideUp 1s ease-out forwards;
 }
   
@@ -86,7 +85,7 @@
     }
     .sectionHero .heroBody > div {
         gap: 0.25rem;
-        padding-top: 5rem;
+        padding-top: 3rem;
         /* margin-top: auto; */
     }
 }
