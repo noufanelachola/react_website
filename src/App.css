@@ -105,8 +105,7 @@
   margin: 0 auto;
 }
 
-
-@media (max-width: 767px) {
+@media (max-width: 575px) {
   
   :root {
     --font-sz-title : 28px;
@@ -129,3 +128,34 @@
 
 }
   
+
+/* Small Tablets/Phablets */
+@media (min-width: 576px) and (max-width: 767px) {
+  :root {
+    --font-sz-title: 35px;
+    --font-sz-sub-title: 22px;
+    --font-sz-para: 18px;
+    --font-sz-sub-para: 16px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  :root {
+    --font-sz-title: 45px;
+    --font-sz-sub-title: 28px;
+    --font-sz-para: 22px;
+    --font-sz-sub-para: 20px;
+  }
+}
+
+/* Small Desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  :root {
+    --font-sz-title : 50px;
+    --font-sz-sub-title: 32px;
+    --font-sz-para: 25px;
+    --font-sz-sub-para: 22px;
+  }
+}
+
