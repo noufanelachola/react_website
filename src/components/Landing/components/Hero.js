@@ -11,7 +11,7 @@ const Hero = () => {
     <section className='sectionHero'>
         <div className='content'>
             <nav>
-                <div className='tagDiv hideMob'>
+                <div className='tagDiv hideMob hideTab'>
                     <img className='logo' src={NavImage} alt='Nav Emoji' />
                     <p>For Freelancers, by Freelancers!</p>
                 </div>
@@ -21,7 +21,7 @@ const Hero = () => {
             </nav>
             <div className='heroBody'>
                 <div>
-                    <div className='tagDiv hideDesk' style={{backgroundColor:"transparent",border:"0.01rem solid black"}}>
+                    <div className='tagDiv hideDesk showTab' style={{backgroundColor:"transparent",border:"0.01rem solid black"}}>
                         <img className='logo' src={NavImage} alt='Nav Emoji' />
                         <p className='textSubPara' >For Freelancers, by Freelancers!</p>
                     </div>
@@ -31,7 +31,7 @@ const Hero = () => {
                     <p className='textSubPara clrLightGray' style={{cursor:"pointer"}} ><u>Watch a Demo</u></p>
                 </div>
                 <img src={DashBoard} alt='Dashboard' className='dashboardImg hideMob' />
-                <img src={DashBoardMobile} alt='Dashboard Mobile' className='dashboardImg hideDesk' />
+                <img src={DashBoardMobile} alt='Dashboard Mobile' className='dashboardImg hideDesk hideTab' />
             </div>
         </div>
         {/* <img src={Arc} alt='Arc' /> */}
