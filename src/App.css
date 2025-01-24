@@ -98,6 +98,10 @@
   display: flex;
 }
 
+.hideTab {
+  display: flex;
+}
+
 .content{
   max-width: 1300px;
   height: 100%;
@@ -137,6 +141,13 @@
     --font-sz-para: 18px;
     --font-sz-sub-para: 16px;
   }
+
+  .hideTab {
+    display: none;
+  }
+  .showTab{
+    display: flex;
+  }
 }
 
 /* Tablets */
@@ -146,6 +157,13 @@
     --font-sz-sub-title: 28px;
     --font-sz-para: 22px;
     --font-sz-sub-para: 20px;
+  }
+  
+  .hideTab {
+    display: none;
+  }
+  .showTab{
+    display: flex;
   }
 }
 
