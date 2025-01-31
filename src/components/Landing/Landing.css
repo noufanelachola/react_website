@@ -1,11 +1,9 @@
 .sectionHero{
     background-image: url("../../assets/bg_hero.png");
     background-size: cover;
-    /* background-position: center; */
     background-position: top;
     background-repeat: no-repeat;
     height: 100dvh;
-    /* position: relative; */
     overflow : hidden;
     padding-top: 1.5rem;
 }
@@ -32,7 +30,6 @@
 .sectionHero .heroBody {
     display: flex;
     flex-direction: column;
-    /* flex-grow: 1; */
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -86,7 +83,16 @@
     .sectionHero .heroBody > div {
         gap: 0.25rem;
         padding-top: 3rem;
-        /* margin-top: auto; */
     }
 }
 
+.sectionBackedBy .logoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sectionBackedBy .logoDiv img {
+    height: 3rem;
+}
