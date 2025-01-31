@@ -73,6 +73,7 @@
 
 
 .tagDiv {
+  width: max-content;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -80,9 +81,7 @@
   background-color: #ffffff;
   padding: 0.5rem 1rem;
   border-radius: 2rem;
-  flex-grow: 0;
   border: 0.1rem solid var(--clr-light-gray);
-  /* height: 3rem; */
 }
 .tagDiv img {
   height: 1.5rem;  
